@@ -4,7 +4,7 @@
 //
 //  Created by Chan Yan wee on 28/10/18.
 //  Copyright © 2018 Chan Yan wee. All rights reserved.
-//
+//  Easy Dictionary
 
 import UIKit
 
