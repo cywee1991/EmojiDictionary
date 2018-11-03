@@ -61,12 +61,28 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your friendly super cat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KDT-aG-3mr">
+                                <rect key="frame" x="101" y="391" width="173" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your friendly super cat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9vD-Jt-Xfo">
+                                <rect key="frame" x="101" y="442" width="173" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="7fs-7e-iuu" firstAttribute="top" secondItem="VHe-lz-Drd" secondAttribute="bottom" constant="68.5" id="NSU-Bq-xK4"/>
+                            <constraint firstItem="KDT-aG-3mr" firstAttribute="centerX" secondItem="SCg-Ro-EvL" secondAttribute="centerX" id="TM4-BZ-aFe"/>
                             <constraint firstItem="VHe-lz-Drd" firstAttribute="top" secondItem="ege-FO-B75" secondAttribute="top" constant="40" id="Tg1-nc-Zss"/>
                             <constraint firstItem="7fs-7e-iuu" firstAttribute="centerX" secondItem="SCg-Ro-EvL" secondAttribute="centerX" id="V85-9H-oFf"/>
+                            <constraint firstItem="9vD-Jt-Xfo" firstAttribute="centerX" secondItem="SCg-Ro-EvL" secondAttribute="centerX" id="dbf-bw-pRk"/>
+                            <constraint firstItem="KDT-aG-3mr" firstAttribute="top" secondItem="7fs-7e-iuu" secondAttribute="bottom" constant="30" id="meb-zK-N2E"/>
+                            <constraint firstItem="9vD-Jt-Xfo" firstAttribute="top" secondItem="KDT-aG-3mr" secondAttribute="bottom" constant="30" id="qBG-Ad-mi7"/>
                             <constraint firstItem="VHe-lz-Drd" firstAttribute="centerX" secondItem="SCg-Ro-EvL" secondAttribute="centerX" id="xHN-Yi-Erj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ege-FO-B75"/>
@@ -75,6 +91,8 @@
                     <connections>
                         <outlet property="emojiLabel" destination="VHe-lz-Drd" id="Dns-in-WSd"/>
                         <outlet property="emojiText" destination="7fs-7e-iuu" id="QCa-Cm-g4o"/>
+                        <outlet property="emojidate" destination="9vD-Jt-Xfo" id="arm-mh-iQk"/>
+                        <outlet property="emojidescrip" destination="KDT-aG-3mr" id="Zf1-g0-kKV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TnR-NH-tul" userLabel="First Responder" sceneMemberID="firstResponder"/>
